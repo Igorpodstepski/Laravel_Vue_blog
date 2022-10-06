@@ -21,9 +21,11 @@ npm install
 ```
 php artisan key:generate
 ```
-4. Create a new database for the application.
+4. Copy .env.example file to .env
+   
+5. Create a new database for the application.
 
-5. In the .env file, add database information to allow Laravel to connect to the database. 
+6. In the .env file, add database information to allow Laravel to connect to the database. 
 In .env file fill in the DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, and DB_PASSWORD options to match the credentials of the database you just created.
 
 6. Migrate the database:
@@ -35,3 +37,6 @@ php artisan migrate
 ```
 php artisan db:seed --class=DatabaseSeeder
 ```
+
+### Author
+Made by Igor Podstepski.
